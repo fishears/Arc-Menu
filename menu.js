@@ -466,7 +466,10 @@ var ApplicationsButton = new Lang.Class({
                 {   label: _("Settings"),
                     symbolic: "preferences-system-symbolic",
                     command: "gnome-control-center" },
-                {   label: _("Tweak Tool"),
+                {   label: _("Manjaro Settings"),
+                    symbolic: "preferences-desktop-symbolic",
+                    command: "manjaro-settings-manager" },
+                {   label: _("Tweaks"),
                     symbolic: "org.gnome.tweaks-symbolic",
                     command: "gnome-tweak-tool" },
                 {   label: _("Tweaks"), // Tweak Tool is called Tweaks in GNOME 3.26
